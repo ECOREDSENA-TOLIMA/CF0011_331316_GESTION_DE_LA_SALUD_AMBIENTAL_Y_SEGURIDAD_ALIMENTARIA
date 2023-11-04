@@ -3,13 +3,14 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p La comunicación del riesgo es un factor esencial para la protección de la comunidad frente a la presencia de cualquier tipo de enfermedad, por ende, resulta fundamental conocer su definición, características, entes encargados, normatividad y los protocolos para su manejo.
+    p En este orden de ideas, el objetivo de este componente formativo es identificar los principales elementos de la comunicación del riesgo como uno de factor fundamental para garantizar la salud y la integralidad del ser humano, se revisarán aspectos esenciales frente a este tema los cuales son necesarios para la estabilidad social, económica y política de cara a emergencias.
+    p.mb-5 Una breve revisión de los temas vistos, se encuentran en el siguiente esquema 
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis del componente comunicación del riesgo aborda de manera integral la necesidad de comprender los peligros y riesgos asociados con el ambiente, el consumo y la sanidad, y la importancia de comunicar esta información de manera clara y efectiva.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

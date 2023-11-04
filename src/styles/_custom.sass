@@ -2,13 +2,8 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 15%
 
 
 @keyframes float1
@@ -17,3 +12,92 @@
 
   100%
     transform: translateY(0px)
+
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: #000 !important
+
+.banner-interno__titulo__icono
+  background-color: #000 !important
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: #000 !important
+
+.boton *, .boton--sm *
+  color: #FFF !important
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+@media only screen and (width: 768px) 
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+
+  .slyder-b__slyde
+    .row
+      margin-right: 5rem !important
+      width: 80% 
+
+@media only screen and (min-width: 390px) and (max-width: 391px)
+  .col-ipad
+    margin-right: 5rem !important
+    width: 80%
+
+  .slyder-b__slyde
+    .row
+      margin-right: 5rem !important
+      width: 80%
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones
+
+.tema1
+  .img-infografica-b__modal
+    background-color: #F1ECE6
+  .img-infografica-b__modal__btn-cerrar i
+    color: $color-acento-botones
+  .img-infografica-b__modal__contenido div > *
+    color: #000 !important
+  .BGIMG02
+    border-radius: 15px
+    background-image: url("../assets/curso/temas/fondo2.svg")
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+  .tarjeta--azul
+    background-color: #F1ECE6
+  .tarjeta.tarjeta--azul.acordion__activo
+    background-color: #E6EBFB
+  .tarjeta.color-acento-contenido1
+    background: linear-gradient(0deg,#FCE7E1, #FFFF)
+ 
+.tema2
+  .img-infografica-b__modal
+    background-color: #F1ECE6
+  .img-infografica-b__modal__btn-cerrar i
+    color: $color-acento-botones
+  .img-infografica-b__modal__contenido div > *
+    color: #000 !important
+  .tarjeta.color-acento-contenido1
+    background: linear-gradient(0deg,#FCE7E1, #FEF8F6)
+  .tabla-a th
+    background-color: $color-acento-contenido
+  .tabs-a__tab
+    background-color: #F1ECE6
+  .tarjeta.color-primario
+    background-color: #EAF2E1
+  .tarjeta--azul
+    background-color: #F1ECE6
+  .tarjeta.tarjeta--azul.acordion__activo
+    background-color: #EAF2E1
