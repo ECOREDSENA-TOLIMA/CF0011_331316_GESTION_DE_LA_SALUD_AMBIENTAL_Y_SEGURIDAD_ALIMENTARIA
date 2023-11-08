@@ -76,12 +76,13 @@
             .col-lg-10
               p La comunicación de riesgos es un componente integral de la gestión de riesgos para la salud pública y una capacidad básica en el marco del Reglamento Sanitario Internacional (RSI). 
 
-    Separador 
-    
-    .titulo-segundo.color-acento-contenido
-      .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-2
-        img(src='@/assets/curso/temas/circle-solid.png' style="max-width: 15px;")
-        .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #000;") El rol de la comunicación pública
+    .row.align-items-center.mb-4
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 El rol de la comunicación pública
 
     .tarjeta.tarjeta.p-4.mb-5(style="background-color:#EAF2E1")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 
@@ -107,12 +108,15 @@
 
     p.mb-5 A menudo se sigue vinculando la comunicación con los medios y con las oficinas de prensa, y se privilegia la visibilidad a canales que están perdiendo importancia para muchos públicos alrededor del mundo. Sin embargo, “centrarse en una comunicación receptiva que sustente los principios del gobierno abierto de transparencia, integridad, rendición de cuentas y participación de las partes interesadas (OECD, 2017), a menudo puede suscitar reticencias y percibirse como arriesgado.” (OCDE, 2018).
 
-    Separador 
+    Separador
     
-    .titulo-segundo.color-acento-contenido
-      .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-2
-        img(src='@/assets/curso/temas/circle-solid.png' style="max-width: 15px;")
-        .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #000;") Principios claves para promover la comunicación pública eficaz
+    .row.align-items-center.mb-3
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Principios claves para promover la comunicación pública eficaz
 
     p.mb-5 La OCDE identificó algunos principios para promover una comunicación pública eficaz, en el siguiente material se podrá conocerlos: 
 
@@ -440,7 +444,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Divulgación pasiva
-            p Aquí, el consumidor mantiene un carácter pasivo, lo que significa que solamente recibe la información sin generar un debate en el ámbito social. El autor solo responde a una motivación personal para difundir su trabajo, ya que el receptor, a pesar de mostrar cierto interés, no genera feedback.
+            p Aquí, el consumidor mantiene un carácter pasivo, lo que significa que solamente recibe la información sin generar un debate en el ámbito social. El autor solo responde a una motivación personal para difundir su trabajo, ya que el receptor, a pesar de mostrar cierto interés, no genera <em>feedback.</em>
 
           .col-md-6
             figure
@@ -454,14 +458,13 @@
           .anexo__texto
             p <strong>Descargar.</strong> Infografía Características, elementos, medios y modelos de la comunicación científica
 
-    .row.mt-5
-      .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/temas/tema1/img-23-2.png', alt='') 
-    
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Importancia de la comunicación científica en la sociedad
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Importancia de la comunicación científica en la sociedad
 
     .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 
@@ -471,9 +474,13 @@
         .col-lg-10
           p Se ha demostrado que la divulgación de la ciencia es una herramienta educativa y cultural de gran relevancia para el desarrollo de la sociedad moderna. El hecho de compartir trabajos e investigaciones científicas beneficia el nivel de culturización del público. En los espacios educativos, que es uno de los objetivos que quiere alcanzar la comunicación científica, es de gran apoyo, pues la interacción entre personas es constante y activa. Los niños de entre 7 y 15 años son uno de los grupos más interesados en temas de estudio científico. Esto se debe a que, en los primeros años de vida, el cerebro absorbe una gran cantidad de información; y el interés y la curiosidad durante la etapa de juventud permiten que trabajos de esta índole tengan un mayor valor en el plano intelectual.
     
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") La difusión del conocimiento científico en la actualidad
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 La difusión del conocimiento científico en la actualidad
 
     .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#E6EBFB")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 
@@ -493,6 +500,7 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
+    showData: 0,
     modal1: false,
     modal2: false,
     modal3: false,

@@ -19,14 +19,15 @@
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/decorador-1.png', alt='Texto que describa la imagen')
             .col-lg-9
-              p Recuerde que la comunicación de riesgos efectiva debe ser capaz de identificar y poder manejar desde un inicio los rumores, así como la desinformación y otros desafíos de la comunicación.
+              p recuerde que la comunicación de riesgos efectiva debe ser capaz de identificar y poder manejar desde un inicio los rumores, así como la desinformación y otros desafíos de la comunicación.
 
-    Separador 
-
-    .titulo-segundo.color-acento-contenido
-      .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-2
-        img(src='@/assets/curso/temas/circle-solid.png' style="max-width: 15px;")
-        .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #000;") Confianza y credibilidad
+    .row.align-items-center.mb-3
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Confianza y credibilidad
 
     p.mb-5 Estos principios son fundamentales en la comunicación del riesgo. Si no hay confianza la población <strong>no va a creer</strong> en la información que ofrezcan las autoridades, o no acatan las recomendaciones. Existen algunas acciones que permiten mantener la confianza, se pueden identificar a continuación: 
 
@@ -79,7 +80,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Ser empático 
-            p Exprese empatía, lo que en ocasiones se denomina “hablar con el corazón” (por ejemplo, no diga “sé cómo se siente”, sino: “es normal sentir ansiedad y esta es una situación preocupante para la comunidad y para todos nosotros…”).
+            p La empatía, lo que en ocasiones se denomina “hablar con el corazón” (por ejemplo, no diga “sé cómo se siente”, sino: “es normal sentir ansiedad y esta es una situación preocupante para la comunidad y para todos nosotros…”).
 
           .col-md-6
             figure
@@ -143,17 +144,13 @@
           .anexo__texto
             p <strong>Descargar.</strong> Infografía acciones para mantener la confianza.
 
-    .row.mt-5
-      .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
+    .row.align-items-center.mb-3
+      .col-auto.pe-0(style="z-index:2")
         figure
-          img(src='@/assets/curso/temas/tema2/img-2-2.png', alt='') 
-
-    Separador 
-
-    .titulo-segundo.color-acento-contenido
-      .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-2
-        img(src='@/assets/curso/temas/circle-solid.png' style="max-width: 15px;")
-        .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #000;") Difusión y comunicación
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Difusión y comunicación
 
     p.mb-5 El coordinar la elaboración de los mensajes y realizar la difusión de forma oportuna y transparente de información científica entre las organizaciones que tengan relación con el tema ayudan a evitar confusiones que puedan socavar la confianza de las personas, aumentar el temor y la ansiedad, e impedir las medidas de respuesta.
 
@@ -236,7 +233,7 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2. Conceptos técnicos elaborados entre especialistas en comunicación y los técnicos
 
-    p.mb-5 Por el desarrollo de las pandemias, el trabajo en equipo entre los especialistas en comunicación del riesgo y los técnicos se ha convertido en una gran necesidad, y tiene el fin de promover la meta de salud pública en cuanto a controlar rápidamente los brotes con el menor trastorno posible a la sociedad
+    p.mb-5 Por el desarrollo de las pandemias, el trabajo en equipo entre los especialistas en comunicación del riesgo y los técnicos se ha convertido en una gran necesidad, y tiene el fin de promover la meta de salud pública en cuanto a controlar rápidamente los brotes con el menor trastorno posible a la sociedad.
 
     .tarjeta.color-acento-contenido1.p-3.mb-5(data-aos="fade-down")
       .row.justify-content-around.align-items-center
@@ -316,9 +313,13 @@
 
     p.mb-5 Es necesario tener claridad en algunos conceptos y aspectos, los cuales hacen parte del referido modelo de vigilancia y control sanitarios, entre los que están: funciones esenciales de salud pública, objetos de inspección, fiscalización sanitaria, contenido general de las actas, concepto sobre los resultados obtenidos en las visitas.
 
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Las Funciones Esenciales de Salud Pública (FESP)
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Las Funciones Esenciales de Salud Pública (FESP)
 
     .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#E6EBFB")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 
@@ -340,11 +341,15 @@
         figure
           img(src='@/assets/curso/temas/tema2/img-16-2.svg', alt='La infografía destaca las funciones esenciales de salud pública, en particular, la importancia de la Vigilancia en Salud Pública como un proceso continuo de recolección, análisis e interpretación de datos relacionados con la salud. Se destaca las capacidades institucionales sólidas necesarias para abordar brotes de enfermedades transmisibles y no transmisibles, así como para atender aspectos de salud mental y lesiones. Incluye la vigilancia epidemiológica, el control de la producción y el consumo de bienes, así como la vigilancia ambiental de la salud. Además, se subraya la importancia de la vigilancia y el control sanitario para proteger la salud individual y colectiva.')
 
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Los objetos de inspección
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Los objetos de inspección
 
-    p.mb-5 Como son originados de cadenas productivas, el gobierno nacional a través del Ministerio de Salud y Protección Social ha realizado la siguiente propuesta de categorías y número de subcategorías a los objetos de IVC, la cual se encuentra validada por las Entidades Territoriales de salud, dicha propuesta se puede visualizar en la siguiente tabla: 
+    p.mb-5 Como son originados de cadenas productivas, el gobierno nacional a través del Ministerio de Salud y Protección Social ha realizado la siguiente propuesta de categorías y número de subcategorías a los objetos de IVC, la cual se encuentra validada por las Entidades Territoriales de Salud, dicha propuesta se puede visualizar en la siguiente tabla: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-8(data-aos="fade-right", alt="En la tabla uno se muestran las categorías de los objetos de inspección, vigilancia y control.")
@@ -359,10 +364,10 @@
                 th Número de Subcategorías
             tbody.text-center
               tr
-                td(style="background-color:#F6F6F6") Vivienda Permanente
+                td(style="background-color:#F6F6F6") Vivienda permanente
                 td(style="background-color:#F6F6F6") 10 actividades económicas
               tr
-                td Vivienda Transitoria
+                td Vivienda transitoria
                 td 16 actividades económicas
               tr
                 td(style="background-color:#F6F6F6") Educativos
@@ -374,10 +379,10 @@
                 td(style="background-color:#F6F6F6") Carcelarios
                 td(style="background-color:#F6F6F6") 4  actividades económicas
               tr
-                td Espectáculo Público
+                td Espectáculo público
                 td 12 actividades económicas
               tr
-                td(style="background-color:#F6F6F6") Diversión Pública
+                td(style="background-color:#F6F6F6") Diversión pública
                 td(style="background-color:#F6F6F6") 11 actividades económicas
               tr
                 td Industriales
@@ -386,7 +391,7 @@
                 td(style="background-color:#F6F6F6") Comerciales
                 td(style="background-color:#F6F6F6") 65 actividades económicas
               tr
-                td Hospitalarios y Similares
+                td Hospitalarios y similares
                 td 9 actividades económicas
               tr
                 td(style="background-color:#F6F6F6") Terminales Portuarios Tráfico Nacional
@@ -430,12 +435,12 @@
             i.fas.fa-circle
             | Establecimientos cuya actividad económica de bienes y servicios exista una alta presencia de factores de riesgo físico, químico y biológico de acuerdo a la evaluación realizada por las autoridades sanitarias producto de los diagnósticos de IVC.
   
-    p.mb-5 Así como los Subprocesos de Inspección, Vigilancia y Control: 
+    p.mb-5 Así como los subprocesos de inspección, vigilancia y control: 
 
     .row.justify-content-center.align-items-center.mb-2
       .col-12.col-md-10.col-lg-8(data-aos="fade-right", alt="En la tabla 2 se muestran los subprocesos de inspección, vigilancia y control.")
         .titulo-sexto.color-acento-contenido
-          p.titulo.pb-0.mb-0 #[b Tabla 2.] #[i Subprocesos de Inspección, Vigilancia y Control] 
+          p.titulo.pb-0.mb-0 #[b Tabla 2.] #[i Subprocesos de Inspección, Vigilancia y Control- IVC] 
       .col-12.col-md-10.col-lg-8(data-aos="fade-right")
         .tabla-b.color-acento-contenido.mb-5
           table(style="min-width:auto")
@@ -455,7 +460,7 @@
                     br 
                     li 
                       i.fas.fa-circle
-                      | Inspección in situ
+                      | Inspección <em>in situ</em>
                     br
                     li 
                       i.fas.fa-circle
@@ -495,9 +500,13 @@
 
     p.mb-5 Sobre la <strong>Fiscalización Sanitaria,</strong> que es uno de los macro procesos misionales centrales, comprendido por los subprocesos: inspección, vigilancia y control de riesgos sanitarios.  Sus objetivos están en verificar el cumplimiento de las normas sanitarias, así como en identificar los factores de riesgos y potenciales efectos de los procesos productivos sobre la salud humana. 
 
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Contenido general del acta
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Contenido general del acta
 
     .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#E6EBFB")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 
@@ -507,9 +516,13 @@
         .col-lg-10  
           p Las actas generalmente cuentan con bloques de información relacionados con las condiciones sanitarias y ambientales, para ser diligenciados y evaluados según la información obtenida del establecimiento. Las condiciones sanitarias y ambientales evaluadas varían según la complejidad y el marco normativo especifico.
     
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Concepto sobre los resultados obtenidos en las visitas
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Concepto sobre los resultados obtenidos en las visitas
 
     p.mb-5 Para empezar, se debe aclarar que los conceptos sanitarios son el resultado obtenido de la evaluación de las condiciones sanitarias y ambientales con base en las visitas de inspección sanitaria y el análisis de los criterios y normas, existen diferentes tipos de conceptos que se obtienen durante este proceso, al revisar el siguiente material se puede conocerlos:
 
@@ -525,7 +538,7 @@
         ul.lista-ul
           li 
             i.lista-ul__vineta
-            | No cumple con los requisitos y condiciones sanitarias establecidas en el marco normativo sanitario obteniendo una calificación menor o igual a 49% y constituye un riesgo inminente para la salud pública.
+            | No cumple con los requisitos y condiciones sanitarias establecidas en el marco normativo sanitario obteniendo una calificación menor o igual a 49 % y constituye un riesgo inminente para la salud pública.
           li 
             i.lista-ul__vineta
             | En caso de que uno o más de los aspectos a evaluar, tanto los aspectos preestablecidos en las actas o como los identificados por el inspector, sea calificado como “crítico”, independiente del porcentaje de cumplimiento obtenido, el concepto sanitario a emitir será de desfavorable.
@@ -645,9 +658,13 @@
                 span Descargar
                 i.fas.fa-link
     
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Alimentos y bebidas 
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Alimentos y bebidas 
 
     .tarjeta.color-acento-contenido1.p-3.mb-5(data-aos="fade-down")
       .row.justify-content-around.align-items-center
@@ -664,9 +681,13 @@
                 span Descargar
                 i.fas.fa-link
     
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Agua de consumo humano
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Agua de consumo humano
     
     .tarjeta.color-acento-contenido1.p-3.mb-5(data-aos="fade-down")
       .row.justify-content-around.align-items-center
@@ -683,9 +704,13 @@
                 span Descargar
                 i.fas.fa-link
     
-    .d-flex.flex-wrap.align-items-center(data-aos="fade-right").mb-5
-      img(src='@/assets/curso/temas/icono.svg' style="max-width: 30px;")
-      .h3.col-auto.pb-2.mb-0.ms-2(style=" color: #455B2D;") Vectores
+    .row.align-items-center.mb-2
+      .col-auto.pe-0(style="z-index:2")
+        figure
+          img(src='@/assets/curso/temas/icono.svg', style="width: 30px" ,alt='').m-auto
+      .col-auto.bg-c8(style="z-index:1")
+        .p-2
+          h3.mb-0.ms-3 Vectores
 
     .tarjeta.color-acento-contenido1.p-3.mb-5(data-aos="fade-down")
       .row.justify-content-around.align-items-center
@@ -732,7 +757,7 @@
                         .titulo-segundo.color-acento-contenido
                           h3 Zoonosis: Rabia
                         p.mb-4 Protocolo Programa de Evaluación Externa del Desempeño (EEDD), 4 de abril de 2019. Se puede descargar en el siguiente enlace:
-                        a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                        a.boton.color-acento-botones(href="https://www.ins.gov.co/buscador-eventos/Lineamientos/Pro_Vigilancia%20Integrada%20Rabia.pdf" target="_blank" type="application/pdf")
                           span Enlace web
                           i.fas.fa-file-code
             .col-lg-5
@@ -753,7 +778,7 @@
                         .titulo-segundo.color-acento-contenido
                           h3 Vectores: Entomología
                         p.mb-4 Protocolo Programa de Evaluación Externa del Desempeño (EEDD), 4 de abril de 2019. Se puede descargar en el siguiente enlace:
-                        a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                        a.boton.color-acento-botones(href="https://www.ins.gov.co/TyS/programas-de-calidad/SiteAssets/Paginas/Entomolog%C3%ADa/Protocolo%20PEEDD%20Entomolgia%20Sep%202019.pdf" target="_blank" type="application/pdf")
                           span Enlace web
                           i.fas.fa-file-code
 
