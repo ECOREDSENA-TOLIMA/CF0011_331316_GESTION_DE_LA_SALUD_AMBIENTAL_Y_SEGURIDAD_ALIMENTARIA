@@ -11,6 +11,10 @@
 
     p Se da la bienvenida a este componente formativo denominado “Comunicación del riesgo según peligros y factores del ambiente, consumo y sanitarios.” para comenzar el recorrido por el mismo, se debe revisar la información que se presenta a continuación:
     
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/NH5MnpCEIC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 </template>
 
 <script>
