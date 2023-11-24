@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Comunicación del riesgo según peligros y factores del ambiente, consumo y sanitarios',
     descripcionCurso:
-      'En este componente formativo se ahondará en el tema de comunicación del riesgo el cual es fundamental dentro del proceso de análisis, inspección, vigilancia y control de los factores de riesgo del ambiente, consumo y sanitarios. Este proceso de comunicación permite abordar el riesgo para encontrar soluciones en conjunto que beneficien la calidad de vida de la población.',
+      'En este componente formativo se ahondará en el tema de comunicación del riesgo, el cual es fundamental dentro del proceso de análisis, inspección, vigilancia y control de los factores de riesgo del ambiente, consumo y sanitarios. Este proceso de comunicación permite abordar el riesgo para encontrar soluciones en conjunto que beneficien la calidad de vida de la población.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -300,7 +300,7 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {

@@ -29,12 +29,12 @@
         .p-2
           h3.mb-0.ms-3 Confianza y credibilidad
 
-    p.mb-5 Estos principios son fundamentales en la comunicación del riesgo. Si no hay confianza la población <strong>no va a creer</strong> en la información que ofrezcan las autoridades, o no acatan las recomendaciones. Existen algunas acciones que permiten mantener la confianza, se pueden identificar a continuación: 
+    p.mb-5 Estos principios son fundamentales en la comunicación del riesgo. Si no hay confianza, la población <strong>no va a creer</strong> en la información que ofrezcan las autoridades, o no acatan las recomendaciones. Existen algunas acciones que permiten mantener la confianza, se pueden identificar a continuación: 
 
     ImagenInfograficaB.color-acento-botones.mb-4.desktop
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema2/img-2-1.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/img-2-1.png', alt='Imagen decorativa')
 
       div(x="4%" y="13%" numero="+")
         .row
@@ -44,17 +44,17 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-3.png', alt='Imagen decorativa')
 
       div(x="4%" y="32%" numero="+")
         .row
           .col-md-6.mb-4.mb-md-0
             h3 No minimizar la preocupación
-            p No hay que minimizar la preocupación de la población, por la presencia de cualquier enfermedad. Hay que reconocer el temor de las personas. Las personas pueden estar atemorizadas, lo cual es una reacción saludable, no se debe insinuar a la población no se preocupe.
+            p No hay que minimizar la preocupación de la población, por la presencia de cualquier enfermedad. Hay que reconocer el temor de las personas. Las personas pueden estar atemorizadas, lo cual es una reacción saludable, no se debe insinuar a la población, no se preocupe.
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-4.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-4.png', alt='Imagen decorativa')
 
       div(x="4%" y="50%" numero="+")
         .row
@@ -64,7 +64,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-5.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-5.png', alt='Imagen decorativa')
 
       div(x="4%" y="69%" numero="+")
         .row
@@ -74,7 +74,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-6.png', alt='Imagen decorativa')
 
       div(x="4%" y="86%" numero="+")
         .row
@@ -84,7 +84,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-7.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-7.png', alt='Imagen decorativa')
 
       div(x="95%" y="13%" numero="+")
         .row
@@ -94,7 +94,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-8.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-8.png', alt='Imagen decorativa')
 
       div(x="95%" y="32%" numero="+")
         .row
@@ -104,7 +104,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-9.png', alt='Imagen decorativa')
 
       div(x="95%" y="50%" numero="+")
         .row
@@ -114,7 +114,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-10.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-10.png', alt='Imagen decorativa')
       
       div(x="95%" y="68%" numero="+")
         .row
@@ -124,7 +124,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-11.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-11.png', alt='Imagen decorativa')
 
       div(x="95%" y="86%" numero="+")
         .row
@@ -134,7 +134,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema2/img-12.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-12.png', alt='Imagen decorativa')
 
     .row.mt-5
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
@@ -187,7 +187,7 @@
           .tarjeta.color-acento-botones.p-3(x="55.3%" y="80%" numero="6")(style="background-color:#F1ECE6")
             p(style="color:#000 !important") La difusión apoyada en diferentes herramientas ha tenido alto impacto y han contribuido con el desarrollo de métodos y enfoques para mejorar la responsabilidad por la equidad en salud, incentivar los diálogos, foros y debates para promover el pensamiento crítico y el compromiso de aumentar la efectividad de los programas y planes que se enmarquen en el PDSP en el país.
 
-        .row.mt-5.mb-3
+        .row.justify-content-center.align-items-center.mt-5.mb-3
           .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
             figure
               img(src='@/assets/curso/temas/tema2/img-13-2.svg', alt='') 
@@ -301,7 +301,7 @@
         figure
           img.mb-2(src='@/assets/curso/temas/tema2/img-15-1.svg', alt='La infografía resalta los principios esenciales para afrontar de manera efectiva los desafíos comunitarios a través de la comunicación. Se destaca la importancia de comprender las circunstancias locales y fomentar la confianza mediante la colaboración activa, así como el mantenimiento de una fuerza laboral comprometida y una comunicación bidireccional inclusiva. También se enfatiza la necesidad de escuchar y responder a los comentarios de manera oportuna, así como evitar la estigmatización y los rumores. Se sugiere el uso de tecnología para el rastreo de contactos y se enfatiza la importancia de coordinarse con todos los actores involucrados, utilizando un lenguaje que fomenta la empatía con la audiencia.')
 
-    .row.mt-5.mb-5
+    .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img-15-2.svg', alt='La infografía resalta los principios esenciales para afrontar de manera efectiva los desafíos comunitarios a través de la comunicación. Se destaca la importancia de comprender las circunstancias locales y fomentar la confianza mediante la colaboración activa, así como el mantenimiento de una fuerza laboral comprometida y una comunicación bidireccional inclusiva. También se enfatiza la necesidad de escuchar y responder a los comentarios de manera oportuna, así como evitar la estigmatización y los rumores. Se sugiere el uso de tecnología para el rastreo de contactos y se enfatiza la importancia de coordinarse con todos los actores involucrados, utilizando un lenguaje que fomenta la empatía con la audiencia.')
@@ -336,7 +336,7 @@
         figure
           img.mb-2(src='@/assets/curso/temas/tema2/img-16-1.svg', alt='La infografía destaca las funciones esenciales de salud pública, en particular, la importancia de la Vigilancia en Salud Pública como un proceso continuo de recolección, análisis e interpretación de datos relacionados con la salud. Se destaca las capacidades institucionales sólidas necesarias para abordar brotes de enfermedades transmisibles y no transmisibles, así como para atender aspectos de salud mental y lesiones. Incluye la vigilancia epidemiológica, el control de la producción y el consumo de bienes, así como la vigilancia ambiental de la salud. Además, se subraya la importancia de la vigilancia y el control sanitario para proteger la salud individual y colectiva.')
 
-    .row.mt-5.mb-5
+    .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-10.col-md-10.col-lg-12.movil(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img-16-2.svg', alt='La infografía destaca las funciones esenciales de salud pública, en particular, la importancia de la Vigilancia en Salud Pública como un proceso continuo de recolección, análisis e interpretación de datos relacionados con la salud. Se destaca las capacidades institucionales sólidas necesarias para abordar brotes de enfermedades transmisibles y no transmisibles, así como para atender aspectos de salud mental y lesiones. Incluye la vigilancia epidemiológica, el control de la producción y el consumo de bienes, así como la vigilancia ambiental de la salud. Además, se subraya la importancia de la vigilancia y el control sanitario para proteger la salud individual y colectiva.')
@@ -528,7 +528,7 @@
 
     TabsA.color-acento-botones.mb-5
       .tarjeta(style="background-color:#EAF2E1").p-4(titulo="Concepto favorable")
-        p Se emite cuando el objeto de Inspección Vigilancia y Control (IVC), sanitario obtiene porcentaje de cumplimiento entre el 95 y 100 % y su funcionamiento u operación no genera riesgos sanitarios a la salud pública. Finalizada la visita se insta al representante a continuar con el mantenimiento de las condiciones sanitarias y a cumplir con la normatividad vigente a través de procesos de autorregulación, autogestión y buenas prácticas sanitarias.
+        p Se emite cuando el objeto de Inspección, Vigilancia y Control (IVC) sanitario, obtiene porcentaje de cumplimiento entre el 95 y 100 % y su funcionamiento u operación no genera riesgos sanitarios a la salud pública. Finalizada la visita se insta al representante a continuar con el mantenimiento de las condiciones sanitarias y a cumplir con la normatividad vigente a través de procesos de autorregulación, autogestión y buenas prácticas sanitarias.
 
       .tarjeta(style="background-color:#EAF2E1").p-4(titulo="Concepto favorable con requerimiento")
         p Se emite cuando, el objeto de IVC no cumple totalmente con los requisitos y condiciones sanitarias, pero no representa o constituye un riesgo inminente para la salud pública o la seguridad sanitaria. La calificación del acta se encuentra entre el 50 % al 94 % del cumplimiento. Finalmente, la autoridad sanitaria realizará los requerimientos y exigencias a que haya lugar.
@@ -555,46 +555,46 @@
 
     p.mb-5 Existen algunas fases importantes que siguen las autoridades sanitarias para elaborar la programación de muestreo y visitas. Observe a continuación las fases necesarias dentro del proceso de muestreo de alimentos y bebidas: 
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.align-items-center.mt-5
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-primario.p-4.col-ipad
+        .tarjeta.color-primario.p-4.col-ipad2
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema2/img-17.png' alt='AvatarTop')
           p <strong>¿Sabe cómo se realiza el proceso de muestreo de alimentos y bebidas?</strong>
           p Lo primero que se debe hacer es determinar los insumos para la toma de muestra y hacer el alistamiento.
 
-        .tarjeta.color-primario.p-4.col-ipad
+        .tarjeta.color-primario.p-4.col-ipad2
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema2/img-18.png' alt='AvatarTop')
           p Se coordina con el laboratorio la capacidad operativa teniendo en cuenta la normatividad sanitaria vigente y los lineamientos del INVIMA. Se elabora y firma un acta con los acuerdos que debe entregarse al coordinador de Salud Ambiental.
 
-        .tarjeta.color-primario.p-4.col-ipad
+        .tarjeta.color-primario.p-4.col-ipad2
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema2/img-19.png' alt='AvatarTop')
           p Se elabora el programa de muestreo priorizando el enfoque de riesgos y los lineamientos del INVIMA. Se define el tipo de alimentos a muestrear, los municipios y los establecimientos donde se realizará el muestreo.
         
-        .tarjeta.color-primario.p-4.col-ipad
+        .tarjeta.color-primario.p-4.col-ipad2
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema2/img-20.png' alt='AvatarTop')
           p Se programa la toma de muestra estableciendo ubicación, fecha y se asigna el personal que realizará la toma de muestra. Dicho profesional deberá trasladarse hasta el establecimiento e informar al propietario sobre el muestreo.
 
-        .tarjeta.color-primario.p-4.col-ipad
+        .tarjeta.color-primario.p-4.col-ipad2
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema2/img-21.png' alt='AvatarTop')
           p Proceda a tomar la muestra de acuerdo a lo establecido en el Manual de Toma de muestras de alimentos y bebidas para entidades territoriales de salud emitido por el INVIMA. 
 
-        .tarjeta.color-primario.p-4.col-ipad
+        .tarjeta.color-primario.p-4.col-ipad2
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema2/img-22.png' alt='AvatarTop')
           p Diligencie el acta y verifique la disponibilidad de insumos entre los que se encuentran: gel antibacterial, nevera color rojo, pilas refrigerantes, guantes desechables, bata blanca, gorro, tapabocas, marcador espátula, termómetro de punzón.
         
-        .tarjeta.color-primario.p-4.col-ipad
+        .tarjeta.color-primario.p-4.col-ipad2
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema2/img-23.png' alt='AvatarTop')
@@ -610,7 +610,7 @@
 
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema2/img-24.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema2/img-24.png', alt='Imagen decorativa')
 
       .row(titulo="Paso 2")
         .col-md-6.mb-4.mb-md-0
@@ -618,7 +618,7 @@
         
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema2/img-25.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema2/img-25.png', alt='Imagen decorativa')
 
       .row(titulo="Paso 3")
         .col-md-6.mb-4.mb-md-0
@@ -626,7 +626,7 @@
 
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema2/img-26.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema2/img-26.png', alt='Imagen decorativa')
 
       .row(titulo="Paso 4")
         .col-md-6.mb-4.mb-md-0
@@ -634,7 +634,7 @@
 
         .col-md-6
           figure
-            img(src='@/assets/curso/temas/tema2/img-27.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema2/img-27.png', alt='Imagen decorativa')
      
     Separador 
 
@@ -735,18 +735,16 @@
     p El Protocolo de Vigilancia en Salud Pública es la guía técnica y operativa que estandariza los criterios, procedimientos y actividades que permiten sistematizar las actividades de vigilancia de los eventos de interés en Salud Pública (Artículo 3, Decreto 3518 de 2006).
     p.mb-5 En tal sentido, se tienen establecidos los siguientes protocolos para zoonosis y vectores
 
-    .tarjeta.tarjeta.p-5.mb-5.mt-5.col-lg-7.mx-auto(style="background-color:#E6EBFB")
+    .tarjeta.tarjeta.p-5.mb-5.mt-5.col-lg-5.mx-auto(style="background-color:#E6EBFB")
       .row
-        .contenedor.fagc.p-mx_5
-          .row.justify-content-center.align-items-center
-            .col-lg-4
-              .row
-                .col-auto.mb-3
-                  a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
-                    span Zoonosis: Rabia
-                    i.fas.fa-search
-                    .indicador--click(v-if="mostrarIndicador")
-              
+        .contenedor
+          .row            
+            .col-6.mb-3
+              a.boton.color-acento-botones.indicador__container.mx-lg-5.mx-md-5(@click="modal2 = true")
+                span Zoonosis: Rabia
+                i.fas.fa-search
+                .indicador--click(v-if="mostrarIndicador")
+          
               ModalA(:abrir-modal.sync="modal2")
                 .row.align-items-center
                   .tarjeta.fagc.p-4.p-md-5.mb-5(style="background: linear-gradient(0deg,#FCE7E1, #FEF8F6)")
@@ -755,19 +753,18 @@
                         img(src="@/assets/curso/temas/tema1/img-17.svg")
                       .col-md.col-lg-6
                         .titulo-segundo.color-acento-contenido
-                          h3 Zoonosis: Rabia
+                            h3 Zoonosis: Rabia
                         p.mb-4 Protocolo Programa de Evaluación Externa del Desempeño (EEDD), 4 de abril de 2019. Se puede descargar en el siguiente enlace:
                         a.boton.color-acento-botones(href="https://www.ins.gov.co/buscador-eventos/Lineamientos/Pro_Vigilancia%20Integrada%20Rabia.pdf" target="_blank" type="application/pdf")
                           span Enlace web
                           i.fas.fa-file-code
-            .col-lg-5
-              .row
-                .col-auto.mb-3
-                  a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
-                    span Vectores: Entomología
-                    i.fas.fa-search
-                    .indicador--click(v-if="mostrarIndicador")
-              
+                      
+            .col-6.mb-3
+              a.boton.color-acento-botones.indicador__container.mx-lg-5.mx-md-5(@click="modal3 = true")
+                span Vectores: Entomología
+                i.fas.fa-search
+                .indicador--click(v-if="mostrarIndicador")
+          
               ModalA(:abrir-modal.sync="modal3")
                 .row.align-items-center
                   .tarjeta.fagc.p-4.p-md-5.mb-5(style="background: linear-gradient(0deg,#FCE7E1, #FEF8F6)")
@@ -795,7 +792,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img-30.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-30.png', alt='Imagen decorativa')
 
           .col-md-6
             h4 Redes telefónicas
@@ -807,12 +804,12 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img-31.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-31.png', alt='Imagen decorativa')
 
           .col-md-6
             h4 Redes de televisión
             p <strong>La televisión terrestre:</strong> que es el método más tradicional de transmitir la señal de difusión de televisión, en forma de ondas de radio transmitida por el espacio abierto.
-            p <strong>La televisión por satélite:</strong> consistente en retransmitir desde un satélite de comunicaciones una señal de televisión emitida desde un punto de la Tierra, de forma que ésta pueda llegar a otras partes del planeta.
+            p <strong>La televisión por satélite:</strong> consistente en retransmitir desde un satélite de comunicaciones, una señal de televisión emitida desde un punto de la Tierra, de forma que ésta pueda llegar a otras partes del planeta.
             p <strong>La televisión por cable:</strong> en la que se transmiten señales de radiofrecuencia a través de fibras ópticas o cables coaxiales.
             p <strong>La televisión por Internet:</strong> traduce los contenidos en un formato que puede ser transportado por redes IP, por eso también es conocida como televisión IP.
 
@@ -820,7 +817,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img-32.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-32.png', alt='Imagen decorativa')
 
           .col-md-6
             h4 Redes en el hogar
@@ -830,7 +827,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img-33.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-33.png', alt='Imagen decorativa')
 
           .col-md-6
             h4 Los terminales
@@ -843,7 +840,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/tema2/img-34.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img-34.png', alt='Imagen decorativa')
 
           .col-md-6
             h4 Los servicios

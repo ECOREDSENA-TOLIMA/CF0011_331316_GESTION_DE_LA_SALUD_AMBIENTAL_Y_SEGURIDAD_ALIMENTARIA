@@ -8,61 +8,62 @@
       h1 Comunicación del riesgo
 
     .row.mb-4(data-aos="fade-right")
-      .col-5
+      .col-md-4.mb-0
         img(src='@/assets/curso/temas/tema1/img-1.png')
-      .col-7
-        p La comunicación de riesgo se refiere al intercambio de información en tiempo real , recomendaciones y opiniones entre expertos y/o funcionarios y demás personas que se enfrentan a una amenaza (riesgo) para su sobrevivencia, su salud o su bienestar económico o social. Es una comunicación basada en la confianza entre los expertos, las autoridades y los afectados. Sin confianza, es poco probable que las personas sigan las recomendaciones brindadas. Escuchar y comprender las creencias, preocupaciones y percepciones de la comunidad es tan importante como proporcionarles evidencias y orientación. Es esencial explicar honestamente lo que se conoce sobre la naturaleza del riesgo y admitir lo que es incierto. La credibilidad de los que dan información y recomendaciones, sus expresiones de cariño y empatía, así como la identificación con el público son factores que hacen eficaz  la comunicación de riesgo.
+      .col-md-8
+        p La comunicación de riesgo se refiere al intercambio de información en tiempo real, recomendaciones y opiniones entre expertos y/o funcionarios y demás personas que se enfrentan a una amenaza (riesgo) para su sobrevivencia, su salud o su bienestar económico o social. Es una comunicación basada en la confianza entre los expertos, las autoridades y los afectados. Sin confianza, es poco probable que las personas sigan las recomendaciones brindadas. Escuchar y comprender las creencias, preocupaciones y percepciones de la comunidad es tan importante como proporcionarles evidencias y orientación. Es esencial explicar honestamente lo que se conoce sobre la naturaleza del riesgo y admitir lo que es incierto. La credibilidad de los que dan información y recomendaciones, sus expresiones de cariño y empatía, así como la identificación con el público son factores que hacen eficaz  la comunicación de riesgo.
         p A continuación, se dan a conocer algunas recomendaciones de la <strong>Organización para la Cooperación y el Desarrollo Económicos</strong> OCDE frente de la comunicación del riesgo.
 
-    .BGIMG02.p-5.mb-4
-      SlyderA(tipo="b")
-        .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
-            p La OCDE recomienda “que los miembros sensibilicen a la población de los riesgos críticos para movilizar a las familias, a las empresas y a los actores internacionales, y que fomenten la inversión en la prevención y mitigación de riesgos”.
+    .BGIMG02.mb-4
+      .p-4.p-lg-5
+        SlyderA(tipo="b")
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p La OCDE recomienda “que los miembros sensibilicen a la población de los riesgos críticos para movilizar a las familias, a las empresas y a los actores internacionales, y que fomenten la inversión en la prevención y mitigación de riesgos”.
 
-          .col-md-6.col-ipad
-            figure
-              img(src='@/assets/curso/temas/tema1/img-2.png', alt='Texto que describa la imagen')
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img-2.png', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
-            p Promover un enfoque de sociedad enterada sobre la comunicación de los riesgos y que facilite la cooperación transfronteriza utilizando registros de riesgos, medios de comunicación y otros mensajes públicos sobre riesgos críticos.
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p Promover un enfoque de sociedad enterada sobre la comunicación de los riesgos y que facilite la cooperación transfronteriza utilizando registros de riesgos, medios de comunicación y otros mensajes públicos sobre riesgos críticos.
 
-          .col-md-6.col-ipad
-            figure
-              img(src='@/assets/curso/temas/tema1/img-3.png', alt='Texto que describa la imagen')
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img-3.png', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
-            p La comunicación en dos vías entre gobierno y actores, asegurándose de que las fuentes de información sean precisas y confiables, y que ésta se brinde en forma apropiada a diversas comunidades, sectores, industrias y actores internacionales.
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p La comunicación en dos vías entre gobierno y actores, asegurándose de que las fuentes de información sean precisas y confiables, y que ésta se brinde en forma apropiada a diversas comunidades, sectores, industrias y actores internacionales.
 
-          .col-md-6.col-ipad
-            figure
-              img(src='@/assets/curso/temas/tema1/img-4.png', alt='Texto que describa la imagen')
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img-4.png', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
-            p La combinación de comunicación focalizada con el suministro de incentivos y herramientas, para que las personas, empresas y ONG trabajen en conjunto y asuman la responsabilidad por la inversión en medidas de autoprotección y desarrollo de resiliencia.
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p La combinación de comunicación focalizada con el suministro de incentivos y herramientas, para que las personas, empresas y ONG trabajen en conjunto y asuman la responsabilidad por la inversión en medidas de autoprotección y desarrollo de resiliencia.
 
-          .col-md-6.col-ipad
-            figure
-              img(src='@/assets/curso/temas/tema1/img-5.png', alt='Texto que describa la imagen')
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img-5.png', alt='Texto que describa la imagen')
 
-        .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
-            p La notificación a las familias de los diferentes grados de riesgos y amenazas de origen humano, y el apoyo del debate informado sobre la necesidad de medidas de prevención, mitigación y preparación.
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p La notificación a las familias de los diferentes grados de riesgos y amenazas de origen humano, y el apoyo del debate informado sobre la necesidad de medidas de prevención, mitigación y preparación.
 
-          .col-md-6.col-ipad
-            figure
-              img(src='@/assets/curso/temas/tema1/img-6.png', alt='Texto que describa la imagen')
-        
-        .row
-          .col-md-6.mb-4.mb-md-0.col-ipad
-            p La información e instrucción al público en anticipación a una emergencia específica sobre las medidas que se tomarán cuando ocurra; la movilización de los sistemas de educación pública para promover una cultura de resiliencia, al integrar a los planes de estudio habilidades y conceptos de resiliencia comunitaria, y transmitir así información a las familias por medio de los estudiantes.
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img-6.png', alt='Texto que describa la imagen')
+          
+          .row
+            .col-lg-7.mb-4.mb-lg-0
+              p La información e instrucción al público en anticipación a una emergencia específica sobre las medidas que se tomarán cuando ocurra; la movilización de los sistemas de educación pública para promover una cultura de resiliencia, al integrar a los planes de estudio habilidades y conceptos de resiliencia comunitaria, y transmitir así información a las familias por medio de los estudiantes.
 
-          .col-md-6.col-ipad
-            figure
-              img(src='@/assets/curso/temas/tema1/img-7.png', alt='Texto que describa la imagen')
+            .col-lg-5
+              figure
+                img(src='@/assets/curso/temas/tema1/img-7.png', alt='Texto que describa la imagen')
 
     p.mb-3 La OMS refiere que la comunicación de riesgos resulta de un recurso estratégico que puede contribuir a la respuesta de salud pública de las autoridades de los países de la región y que, en un escenario ideal, se contaría con tiempo para hacer planes, establecer una estrategia de comunicación y una guía de acción. Pero en situaciones como la presencia de Covid-19, se requieren aptitudes inmediatas para comunicarse con el público.
 
@@ -173,7 +174,7 @@
             img(src='@/assets/curso/temas/tema1/decorador-4.png', alt='Texto que describa la imagen')
         .col-lg-10
           p El objetivo de la comunicación es difundir información equilibrada, clara y en formato conveniente que permita poner al alcance de quienes estén expuestos a los riesgos ambientales y del público en general, alternativas para reducir los efectos en la salud y los daños al ambiente. 
-          p Si una persona se expone a un riesgo debe ser capaz de tomar decisiones informadas para mitigar los efectos de la amenaza (riesgo), como el brote de una enfermedad, y tomar las medidas y acciones de protección y prevención.
+          p Si una persona se expone a un riesgo, debe ser capaz de tomar decisiones informadas para mitigar los efectos de la amenaza (riesgo), como el brote de una enfermedad, y tomar las medidas y acciones de protección y prevención.
 
     p.mb-5 Se pueden conocer los componentes de la comunicación de riesgo a continuación:
 
@@ -182,7 +183,7 @@
         figure
           img.mb-2(src='@/assets/curso/temas/tema1/img-14-1.svg', alt='La infografía presenta los elementos clave de la comunicación de riesgo, los cuales abarcan: la fuente, que es el emisor del mensaje; el mensaje en sí; el código, que engloba los signos y reglas que le otorgan significado; el receptor, que es la persona que recibe el mensaje; y el canal, que actúa como el medio de transmisión.')
 
-    .row.mt-5.mb-5
+    .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-10.col-md-10.col-lg-10.movil(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img-14-2.svg', alt='La infografía presenta los elementos clave de la comunicación de riesgo, los cuales abarcan: la fuente, que es el emisor del mensaje; el mensaje en sí; el código, que engloba los signos y reglas que le otorgan significado; el receptor, que es la persona que recibe el mensaje; y el canal, que actúa como el medio de transmisión.') 
@@ -190,15 +191,15 @@
     .tarjeta.tarjeta.p-4.mb-5.mt-5(style="background-color:#EAF2E1")(data-aos="flip-up")
       .row.justify-content-center.align-items-center 
         .col-md-10.mb-3
-          p Se debe recordar que en el proceso de comunicación, lo recomendable es involucrar a la comunidad desde el principio, está debe participar activamente y conocer la información con la que se cuenta. Como también, hay que dar claridad sobre las autoridades ante quien se debe interponer queja o reclamo en relación con el riesgo del componente ambiental, así como del procedimiento que debe emplearse en la atención de las mismas.
+          p Se debe recordar que en el proceso de comunicación, lo recomendable es involucrar a la comunidad desde el principio, esta debe participar activamente y conocer la información con la que se cuenta. Como también, hay que dar claridad sobre las autoridades ante quien se debe interponer queja o reclamo en relación con el riesgo del componente ambiental, así como del procedimiento que debe emplearse en la atención de las mismas.
         .col-md-2
           figure
             img(src='@/assets/curso/temas/tema1/img-15.png', alt='Imagen decorativa')
 
     .row.mb-4(data-aos="fade-right")
-      .col-5
+      .col-md-4.mb-0
         img(src='@/assets/curso/temas/tema1/img-16.png')
-      .col-7
+      .col-md-8
         p En las emergencias de salud pública, la comunicación de riesgos se constituye en una acción esencial para salvar vidas. Las personas tienen derecho a saber cómo proteger su salud teniendo la responsabilidad de tomar decisiones informadas para protegerse a sí mismas, a su familia y a quienes les rodean. Una comunicación de riesgos eficaz no sólo salva vidas y reduce la propagación de enfermedades, sino que también permite a los países y las comunidades, el preservar su estabilidad social, económica y política de cara a emergencias.
         p Esta es la razón por la que la comunicación de riesgos es una de las prioridades básicas que todos los países se han comprometido a desarrollar con el fin de prevenir la propagación internacional de enfermedades y otros peligros como se requiere dentro del Reglamento Sanitario Internacional (2005).
 
@@ -209,18 +210,16 @@
 
     p.mb-5 Los conceptos de peligro y riesgo se utilizan indistintamente muchas veces, por ende, es necesario aclararlos, revise su definición haciendo clic en cada botón: 
 
-    .tarjeta.tarjeta.p-5.mb-5.mt-5.col-lg-7.mx-auto(style="background-color:#E6EBFB")
+    .tarjeta.tarjeta.p-5.mb-5.mt-5.col-lg-5.mx-auto.col-sm-12.col-md-12(style="background-color:#E6EBFB")
       .row
-        .contenedor.fagc.p-mx_5
-          .row.justify-content-center.align-items-center
-            .col-lg-3
-              .row
-                .col-auto.mb-3
-                  a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
-                    span Peligro
-                    i.fas.fa-search
-                    .indicador--click(v-if="mostrarIndicador")
-              
+        .contenedor
+          .row 
+            .col-6.mb-3
+              a.boton.color-acento-botones.indicador__container.mx-lg-5.mx-md-5(@click="modal2 = true")
+                span Peligro
+                i.fas.fa-search
+                .indicador--click(v-if="mostrarIndicador")
+          
               ModalA(:abrir-modal.sync="modal2")
                 .row.align-items-center
                   .tarjeta.fagc.p-4.p-md-5.mb-5(style="background: linear-gradient(0deg,#FCE7E1, #FEF8F6)")
@@ -229,17 +228,16 @@
                         img(src="@/assets/curso/temas/tema1/img-17.svg")
                       .col-md.col-lg-6
                         .titulo-segundo.color-acento-contenido
-                          h3 Peligro
+                            h3 Peligro
                         p.mb-4 Es un conjunto de circunstancias que puedan conducir a daños desde una lesión, enfermedad o pérdida de la vida.
 
-            .col-lg-3
-              .row
-                .col-auto.mb-3
-                  a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
-                    span Riesgo
-                    i.fas.fa-search
-                    .indicador--click(v-if="mostrarIndicador")
-              
+                      
+            .col-6.mb-3
+              a.boton.color-acento-botones.indicador__container.mx-lg-5.mx-md-5(@click="modal3 = true")
+                span Riesgo
+                i.fas.fa-search
+                .indicador--click(v-if="mostrarIndicador")
+          
               ModalA(:abrir-modal.sync="modal3")
                 .row.align-items-center
                   .tarjeta.fagc.p-4.p-md-5.mb-5(style="background: linear-gradient(0deg,#FCE7E1, #FEF8F6)")
@@ -250,7 +248,7 @@
                         .titulo-segundo.color-acento-contenido
                           h3 Riesgo
                         p.mb-4 Se define como una probabilidad de un hecho perjudicial como consecuencia de la exposición a peligro determinado.
-                       
+
     p.mb-5 En este orden de ideas, la caracterización del riesgo corresponde a la identificación del riesgo, este aspecto debe ser realizado de forma exhaustiva para cubrir todas las posibilidades, en tal sentido, algunos aspectos en el marco de dicha caracterización se pueden revisar en el siguiente material:
 
     TabsB.color-acento-botones
@@ -317,7 +315,7 @@
         figure
             img(src='@/assets/curso/temas/tema1/img-22.svg', alt='')
       .col-md-8
-        p La comunicación científica es un sistema que permite a diversos investigadores y profesionales de la ciencia conservar, utilizar y compartir a diversas personas sus trabajos de forma libre. A través de dicho mecanismo, el público en general obtiene un acceso completo a distintos tipos de proyectos de índole científica. Facilita a cualquier ciudadano expresar sus ideas y conocimientos sin que sea discriminado. La difusión de las investigaciones se realiza mediante diferentes procesos y medios que más adelante serán puntualizados.
+        p La comunicación científica, es un sistema que permite a diversos investigadores y profesionales de la ciencia conservar, utilizar y compartir a diversas personas sus trabajos de forma libre. A través de dicho mecanismo, el público en general obtiene un acceso completo a distintos tipos de proyectos de índole científica. Facilita a cualquier ciudadano expresar sus ideas y conocimientos sin que sea discriminado. La difusión de las investigaciones se realiza mediante diferentes procesos y medios que más adelante serán puntualizados.
         .tarjeta.tarjeta.p-4(style="background-color:#EAF2E1")
           .row
             .col-lg-12
@@ -488,7 +486,7 @@
           figure(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema1/img-37.png', alt='Texto que describa la imagen')
         .col-lg-10
-          p La comunicación científica, ha podido llegar a niveles educativos básicos, razón que permite tener gran impacto en el desarrollo e interés de los niños, en relación con temas de investigación en especial en la medicina, la tecnología, la química, entre otros. Además, al difundir el conocimiento científico se fortalecen los niveles de educación superior, lo que contribuye al sistema educativo teniendo profesionales con mayor preparación, esta situación también se le debe a la globalización del internet, así como a las redes sociales y aplicaciones donde se comparten mensajes de texto.
+          p La comunicación científica ha podido llegar a niveles educativos básicos, razón que permite tener gran impacto en el desarrollo e interés de los niños, en relación con temas de investigación en especial en la medicina, la tecnología, la química, entre otros. Además, al difundir el conocimiento científico se fortalecen los niveles de educación superior, lo que contribuye al sistema educativo teniendo profesionales con mayor preparación, esta situación también se le debe a la globalización del internet, así como a las redes sociales y aplicaciones donde se comparten mensajes de texto.
 
 
 
