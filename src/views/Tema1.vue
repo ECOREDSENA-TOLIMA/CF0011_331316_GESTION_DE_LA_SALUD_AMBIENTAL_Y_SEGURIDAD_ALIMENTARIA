@@ -332,7 +332,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3 Adaptación
-            p La comunicación científica, se amolda a las diferentes coyunturas que ocurren dentro de una sociedad. Por ejemplo, cuando el acceso a la información en un Estado se ve disminuido, este sistema facilita la divulgación a través de medios competentes. En este caso, las investigaciones son discutidas por miembros del mismo gremio de científicos y otros profesionales relacionados con la materia.
+            p La comunicación científica se amolda a las diferentes coyunturas que ocurren dentro de una sociedad. Por ejemplo, cuando el acceso a la información en un Estado se ve disminuido, este sistema facilita la divulgación a través de medios competentes. En este caso, las investigaciones son discutidas por miembros del mismo gremio de científicos y otros profesionales relacionados con la materia.
 
           .col-md-6
             figure

@@ -677,7 +677,7 @@
               p.text-small El siguiente  documento se denomina: “Manual de toma de muestras de alimentos y bebidas para entidades territoriales de salud” (INVIMA, 2015)
 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-negro(href="https://www.invima.gov.co/" target="_blank")
+              a.boton.color-acento-botones.texto-negro(href="https://www.ibague.gov.co/portal/admin/archivos/publicaciones/2018/21860-DOC-20181009.pdf" target="_blank")
                 span Descargar
                 i.fas.fa-link
     
